@@ -1,0 +1,78 @@
+::ng-deep .mention {
+  cursor: pointer;
+  color: blue !important;
+  background-color: transparent !important;
+  text-decoration: underline;
+}
+
+::ng-deep.ck-powered-by-balloon{
+display: none;
+}
+
+::ng-deep.ck.ck-powered-by{
+  display: none;
+}
+
+::ng-deep.ck.ck-sticky-panel .ck-sticky-panel__content_sticky{
+  background-color: white;
+ 
+}
+
+::ng-deep .ck.ck-editor {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+::ng-deep .ck-content .table table {
+  overflow: auto !important;
+}
+
+::ng-deep.ck.ck-editor__editable_inline {
+  overflow: hidden !important;
+  min-height: 125px;
+}
+
+::ng-deep.ck.ck-content.ck-editor__editable.ck-editor__editable_inline.ck-focused{
+  border: 0px;
+  box-shadow: none;
+
+}
+.editor-wrapper {
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+}
+
+.editor-wrapper.focused {
+  border-color: #0078d4;
+}
+::ng-deep.ck.ck-content.ck-editor__editable.ck-editor__editable_inline.ck-blurred{
+  border: 0px;
+
+}
+::ng-deep.ck.ck-toolbar.ck-toolbar_grouping {
+  border: 0px;
+
+}
+
+::ng-deep.ck.ck-toolbar.ck-toolbar_grouping>.ck-toolbar__items {
+  flex-wrap: wrap;
+}
+.hidden-toolbar ::ng-deep .ck-toolbar.ck-toolbar_grouping {
+  display: none;
+}
+
+::ng-deep.ng-star-inserted.focused-toolbar{
+  border: 0px;
+}
+::ng-deep.ck.ck-toolbar{
+  background: none;
+}
+::ng-deep.ck.ck-editor__main>.ck-editor__editable{
+  background: none;
+}
+::ng-deep.ck.ck-list__item .ck-button{
+  justify-content: flex-start;
+}
+.ck.ck-editor__editable.ck-focused{
+  box-shadow: none;
+}

@@ -1,0 +1,5 @@
+
+  <div [ngClass]="{'hidden-toolbar': isToolbarHidden, 'focused': isFocus, 'focusout': !isFocus}" class="editor-wrapper" [class]="'editor-' + id"> 
+    <ckeditor #editor [editor]="Editor"  [(ngModel)]="injectedData" [config]="editorConfig" (blur)="onEditorFocusOut($event)" (focus)="onEditorFocus($event)"  (change)="onEditorChange($event)"></ckeditor>
+  </div>
+  
